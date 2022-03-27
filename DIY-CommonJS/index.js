@@ -26,5 +26,5 @@ function requires(path){
     return myModule.load()
 }
 
-const beUsedModule = requires("/home/pg/WebstormProjects/learn-js/beCalled.js");
+const beUsedModule = requires("/home/pg/WebstormProjects/learn-js/DIY-CommonJS/beCalled.js");
 beUsedModule.sayThisFunctionIsCalled();
